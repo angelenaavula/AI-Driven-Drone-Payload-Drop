@@ -12,7 +12,7 @@ This project brings together real-time AI vision, hardware integration, and auto
 
 ## 📷 Architecture
 
-![System Architecture](./assets/drone_architecture.png)
+![System Architecture](./assets/system_architecture.jpg)
 
 
 ---
