@@ -14,7 +14,7 @@ const MapComponent = ({ onDispatchDrone }) => {
   };
 
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyB-6NuWru71NBpaRmAaiEZjRmTJnUfQBbQ',  // Replace with your API Key
+    googleMapsApiKey: '',  // Replace with your API Key
     libraries,
   });
 
