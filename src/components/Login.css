@@ -1,0 +1,92 @@
+
+/* Full screen background */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0a2342;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.login-box {
+  background-color: #1c1e26;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+  position: relative;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  color: #d1d1d1;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #2a2e35;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0056b3;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00429d;
+}
+
+.error {
+  color: #ff3333;
+  margin-bottom: 20px;
+}
+
+/* Drone animation */
+.drone-animation {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Register link */
+.register-link {
+  color: #00aaff;
+  cursor: pointer;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}

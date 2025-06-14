@@ -1,0 +1,21 @@
+
+.object-recognition {
+  background-color: #ECF0F1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.object-recognition h3 {
+  margin-bottom: 15px;
+}
+
+.object-recognition ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.object-recognition li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
